@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Fasthand&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none; 
+}
+
+body{
+    font-size: 100%;
+    background: url("img/FundoPortfolio.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+    /* max-height: 2140px; */
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecalho-img{
+    height: 80px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 48px;
+}
+
+.cabecalho-menu-item{
+    font-family:'Amatic SC', cursive;
+    color: #F3FFD2;
+    font-weight: 700;
+    font-size: 24px;
+}
+.cabecalho-menu-item:hover{
+    color: #2E0527;
+    cursor: pointer;
+}
+
+.conteudo{
+    margin-bottom: 60px;
+    border-top: #F3FFD2 solid 0.4px;
+}
+
+.conteudo-principal{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    /* padding-top: 70px;
+    padding-left: 140px; */
+}
+
+.titulo-subtitulo-botao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Roboto', sans-serif;
+    color: #F3FFD2;
+    font-weight: 200;
+    font-size: 4rem;
+}
+
+.conteudo-principal-escrito-titulo-dois{
+    font-family: 'Fasthand', sans-serif;
+    margin-top:-30px;
+    padding: 0;
+    color: #F3FFD2;
+    font-weight: 200;
+    font-size: 4rem;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Amatic SC', cursive;
+    margin-top: -20px;
+    color: #F3FFD2;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.conteudo-principal-escrito-botao{
+    font-family: 'Roboto', sans-serif;
+    color: #F3FFD2;
+    font-weight: 700;
+    background: none;
+    border: 1px solid #f3ffd2;
+    margin-top: 16px;
+    padding: 15px;
+    width: 100%;
+}
+
+.conteudo-principal-escrito-botao:hover{
+    border: 1px solid #2E0527;
+    color: #f3ffd2;
+    background: #2E0527;
+    cursor: pointer;
+}
+
+.conteudo-principal-imagem{
+    height: 470px;
+    align-items: center;
+    margin-right: 60px;
+}
+
+@media only screen and (max-width: 959px) {
+    
+}
